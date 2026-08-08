@@ -14,7 +14,7 @@ origins = [
 ]
 
 # Setup Static Files
-UPLOAD_DIR = Path("uploads/complaints")
+UPLOAD_DIR = Path("/tmp/uploads/complaints")
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 app.mount("/static/complaints", StaticFiles(directory="uploads/complaints"), name="complaint_images")
 
