@@ -5,6 +5,7 @@ motor
 pymongo
 passlib[bcrypt]
 PyJWT
+python-jose[cryptography]
 google-genai
 python-multipart
 email-validator
