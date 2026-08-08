@@ -16,7 +16,7 @@ from typing import Optional
 
 router = APIRouter(tags=["Complaints"])
 
-UPLOAD_DIR = Path("uploads/complaints")
+UPLOAD_DIR = Path("/tmp/uploads/complaints")
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 
